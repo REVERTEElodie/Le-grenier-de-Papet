@@ -1,0 +1,72 @@
+
+  .front__nav {
+    display: grid;
+    place-items: center; /* Centre horizontalement et verticalement */
+    height: 200px;
+}
+
+ 
+  /* .left__subtitle {
+    font-style: italic;
+    font-size: 1em;
+    font-weight: 400; .left__title {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    max-width: 100px;
+    line-height: 0.9;
+    padding-left: 40px;
+    background-image: url(../images/DALL.jpg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    align-self: flex-start;
+  }
+  } */
+
+img {
+
+  width: 40%;
+  float: right;
+  
+}
+  
+/* Appliquer une couleur de fond à tout le site */
+body {
+  background-color: #86b2d6; /* Tu peux changer ce code couleur pour la couleur de ton choix */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Exemple de style pour les titres */
+h1 {
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+  
+ 
+  .left__nav-item {
+    display: inline-block;
+  }
+  
+  .left__nav-link {
+    color: #5306e0(31, 166, 193);
+    padding: 0.5em 1em;
+    margin: 0;
+    font-weight: 300;
+  }
+  
+  .left__nav-link:hover {
+    color: inherit;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+  }
+  
+  .right {
+    
+    display: grid;
+    place-items: center; 
+    height: 500px;    
+    justify-content: center; 
+     
+    }
